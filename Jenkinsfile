@@ -20,6 +20,11 @@ stage('Terraform Init') {
                 sh 'terraform apply --auto-approve'
             }
       }
+      stage ('Python checker') {
+            steps {
+                   sh 'python3 /Users/Ali/Downloads/123test.py'
+            }
+      }
 }
 }
 
