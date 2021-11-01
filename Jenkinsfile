@@ -1,7 +1,7 @@
 pipeline {
 agent any 
 tools {
-terraform "terraform1.0.10"
+terraform "terraform"
 }
 stages{
 stage('Terraform Init') {
