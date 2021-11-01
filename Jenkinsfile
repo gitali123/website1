@@ -9,6 +9,12 @@ stage('Terraform Init') {
         sh 'terraform --version'
       }
     }
+      stage ('Terraform Plan') {
+            steps {
+                    sh 'terraform plan'
+            }
+      }
+
 }
 }
 
