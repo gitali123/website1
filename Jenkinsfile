@@ -1,5 +1,5 @@
 pipeline {
-agent any {
+agent any 
 tools {
 terraform "Terraform v1.0.10"
 }
@@ -11,4 +11,4 @@ stage('Terraform Init') {
     }
 }
 }
-}
+
