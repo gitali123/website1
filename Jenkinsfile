@@ -11,7 +11,7 @@ stage('Terraform Init') {
     }
       stage ('Terraform Plan') {
             steps {
-                    sh 'terraform plan'
+                    sh 'terraform init'
             }
       }
 
