@@ -22,7 +22,7 @@ stage('Terraform Init') {
       }
       stage ('Python checker') {
             steps {
-                   sh 'cat /Users/Ali/Downloads/123test.py'
+                   sh 'cat /Users/Ali/Downloads/second_file.txt'
             }
       }
 }
